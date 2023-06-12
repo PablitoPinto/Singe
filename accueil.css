@@ -1,0 +1,180 @@
+* {
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+	color: #333;
+	background-color: #fcf7f0;
+}
+
+header {
+	background-color: #222;
+	height: 140px;
+	padding: 15px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 999;
+}
+
+
+.en-tete {
+	display: flex;
+    justify-content: space-between;
+    align-items: center;
+	border: 7px #222 solid ;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    margin-right: 10px;
+}
+
+.titre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+}
+
+.titre h1 {
+	color:#fff;
+    margin: 0;
+    text-align: center;
+	font-family: 'Cabin Sketch', cursive;
+    font-size: 3rem;
+}
+
+nav ul {
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+nav li {
+	margin-right: 20px;
+}
+
+nav a {
+	color: #fff;
+	text-decoration: none;
+	font-family: "Cabin Sketch";
+	transition: all ease-in-out;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+nav a:hover {
+	color: red;
+}
+
+#accueil {
+	background-image: url('arrière-plan.jpg');
+	background-position: center center;
+	background-size: cover;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+#accueil h1 {
+	font-size: 4rem;
+	margin-bottom: 20px;
+	color: #fff;
+}
+
+#accueil h3 {
+	font-size: 1.5rem;
+	margin-bottom: 30px;
+	color: #fff;
+}
+
+#presentation {
+	background-color: #fcf7f0;
+	padding: 20px;
+	text-align: center;
+	border-top: 30px solid #333;
+	border-bottom: 30px solid #333;
+}
+
+.conteneur-image {
+	display: flex;
+	align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.conteneur-image img {
+	max-width: 400px;
+	height: auto;
+	max-width: 100%;
+	border-radius: 10px;
+	box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.conteneur-texte {
+    padding: 30px;
+}
+
+.conteneur-texte h2 {
+	font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.conteneur-texte p {
+	font-size: 18px;
+    line-height: 1.5;
+}
+
+.engagement-message {
+	background-color: #fcf7f0;
+	padding: 20px;
+	border-radius: 5px;
+	text-align: center;
+}
+
+.engagement-message h2 {
+	font-size: 30px;
+	font-weight: bold;
+	color: #333;
+	padding-bottom: 20px;
+}
+  
+.engagement-message p {
+	font-size: 18px;
+	line-height: 1.5;
+	color: #666;
+	padding-bottom: 30px;
+}
+  
+.bouton-action {
+	background-color: #F44336;
+	color: #fff;
+	text-decoration: none;
+	font-size: 18px;
+	padding: 10px 20px;
+	border-radius: 5px;
+	transition: background-color 0.3s ease;
+}
+  
+.bouton-action:hover {
+	background-color: #91312f;
+}
+
+#message {
+	padding: 100px;
+}

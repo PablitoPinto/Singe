@@ -1,0 +1,178 @@
+* {
+	margin: 0;
+	box-sizing: border-box;
+}
+
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+	color: #333;
+	background-color: #fcf7f0;
+}
+
+header {
+	background-color: #222;
+    height: 140px;
+	padding: 15px;
+	padding-bottom: 100px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 999;
+}
+
+.en-tete {
+	display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 7px #222 solid ;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    margin-right: 10px;
+}
+
+.titre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+}
+
+.titre h1 {
+	color:#fff;
+    margin: 0;
+    text-align: center;
+	font-family: 'Cabin Sketch', cursive;
+    font-size: 3rem;
+}
+
+nav ul {
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+nav li {
+	margin-right: 20px;
+}
+
+nav a {
+	color: #fff;
+	text-decoration: none;
+    font-family: "Cabin Sketch";
+	transition: all ease-in-out;
+}
+
+nav a:hover {
+	color: red;
+
+}
+main {
+    margin-top: 140px;
+}
+
+  
+#questions {
+	background-color: #fcf7f0;
+	padding: 50px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+#questions h2 {
+	font-size: 2.5rem;
+	margin-bottom: 30px;
+	color: #333;
+}
+
+.conteneur-texte {
+	padding-right: 70px;
+}
+
+.conteneur-texte p {
+	padding: 20px
+}
+
+.image-gibbon {
+    flex: 0 0 20%;
+    max-width: 50%;
+    padding-top: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 100px;
+	margin: auto;
+	display: flex;
+}
+  
+.image-gibbon img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+
+.image-gibbon2 {
+    flex: 0 0 50%;
+    max-width: 50%;
+    padding: 10px;
+}
+  
+.image-gibbon2 img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.engagement-message {
+	background-color: #fcf7f0;
+	padding: 20px;
+	border-radius: 5px;
+	text-align: center;
+}
+
+.engagement-message h2 {
+	font-size: 30px;
+	font-weight: bold;
+	color: #333;
+	padding-bottom: 20px;
+}
+  
+.engagement-message p {
+	font-size: 18px;
+	line-height: 1.5;
+	color: #666;
+	padding-bottom: 30px;
+}
+  
+.bouton-action {
+	background-color: #F44336;
+	color: #fff;
+	text-decoration: none;
+	font-size: 18px;
+	padding: 10px 20px;
+	border-radius: 5px;
+	transition: background-color 0.3s ease;
+}
+  
+.bouton-action:hover {
+	background-color: #91312f;
+}
+
+#message {
+	padding: 100px;
+	border-top: 30px solid #333;
+}
